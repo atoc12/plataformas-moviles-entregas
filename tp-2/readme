@@ -1,0 +1,23 @@
+  <h1>Estilos dentro de CSS</h1>
+  <p>Dentro del estilo, implementar las definiciones para aplicar los siguientes estilos:</p>
+  <ol>
+    <li>Agregar una regla para definir el color de fondo del documento en #222, y el color del texto en #ee6.</li>
+    <li>Agregar una regla para centrar el título principal del documento.</li>
+    <li>Mostrar todos los párrafos con una fuente sans-serif.</li>
+    <li>Agregar una regla para mostrar en color #eee todos los títulos del documento.</li>
+    <li>Agregar un borde inferior color blanco a todos los elementos &lt;strong&gt;.</li>
+    <li>Mostrar el fondo gris #444 y el texto en negrita para todos los elementos con la clase the-force.</li>
+    <li>Mostrar el texto con color #66f para los elementos con la clase light-side, y color #f33 para la clase dark-side.</li>
+    <li>Agregar la regla list-style-type: circle; al listado con ID og-trilogy.</li>
+    <li>Agregar padding-left al segundo listado de películas.</li>
+    <li>Agregar margin-top al último elemento del tercer listado de películas.</li>
+  </ol>
+  <p><br><strong>Bonus Tracks:</strong> <br></p><br>
+  <ol start="11">
+    <li>Hacer que todos los títulos muestren su texto en mayúscula.</li>
+    <li>Hacer que la primera línea del primer párrafo se muestre color #efe.</li>
+    <li>Hacer que el título principal cambie de color cuando se pasa el puntero por encima.</li>
+    <li>Hacer que los links visitados cambien a color gris.</li>
+    <li>Mostrar los links sin atributo href en cursiva.</li>
+    <li>Mostrar de manera alternada el color de fondo de cada uno de los elementos de los listados de películas entre #111 y 333.</li>
+  </ol>

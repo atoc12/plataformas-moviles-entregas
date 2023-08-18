@@ -1,0 +1,17 @@
+Crear los archivos:
+<br>
+<ul>
+    <li>
+        tp-5/layout-1.html
+    </li>
+    <li>
+        tp-5/layout-2.html
+    </li>
+    <li>
+        tp-5/layout-3.html
+    </li>
+</ul>
+<br>
+Para cada layout, realizar las modificaciones necesarias para que el sistema de grilla se comporte de la misma forma que se ve en las imagenes. Esto incluye realizar las modificaciones necesarias para instalar bootstrap en cada uno de los documentos.
+
+(ver los archivos adjuntos o abrir las imagenes en nueva pestaña para visualizar correctamente y en tamaño completo las imagenes)

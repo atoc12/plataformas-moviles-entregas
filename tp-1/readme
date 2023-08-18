@@ -1,0 +1,72 @@
+<section>
+    <h1>Primera Parte: Repositorio en GitHub</h1>
+    <ul>
+        <li>
+            Crear usuario en GitHub (si es que todavía no tienen).
+        </li>
+        <li>
+            Crear un nuevo repositorio, con el nombre plataformas-moviles-entregas.
+        </li>
+        <li>
+            Dentro del repositorio recién creado, agregar:
+            <ul>
+                <li>
+                    un archivo index.html en el nivel raíz.
+                </li>
+                <li>
+                    una carpeta tp-1 en el nivel raíz.
+                </li>
+                <li>
+                    un archivo index.html dentro de la carpeta tp-1.
+                </li>
+            </ul>
+        </li>
+        <li>
+            Activar GitHub Pages.
+            <ol>
+                <li>
+                    Ir a la sección settings del repositorio.
+                </li>
+                <li>
+                    Ir a la sección pages dentro de settings del repositorio.
+                </li>
+                <li>
+                    Seleccionar la branch main y la carpeta root del repositorio.
+                </li>
+                <li>
+                    Click en save para guardar los cambios.
+                </li>
+            </ol>
+        </li>
+    </ul>
+</section>
+<section>
+    <h1>
+        Segunda Parte: Contenido en HTML
+    </h1>
+    <ul>
+        <li>
+            Elegir un artículo de la wikipedia
+        </li>
+        <li>
+            Seleccionar todo el texto del artículo y copiarlo en el archivo HTML que creamos en tp-1/index.html.
+        </li>
+        <li>
+            Agregar todas las etiquetas HTML que considere necesarias para que el artículo mantenga una estructura correcta, teniendo en cuenta:
+            <ul>
+                <li>
+                    Respetar los niveles de heading, usando las etiquetas de < h1 > hasta < h6 >.
+                </li>
+                <li>
+                    Conservar los resaltados con < strong > y < em >.
+                </li>
+                <li>
+                    Pensar en la semántica de las etiquetas.
+                </li>
+                <li>
+                    Subir y publicar en GitHub el archivo HTML creado.
+                </li>
+            </ul>
+        </li>
+    </ul>
+</section>

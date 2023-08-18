@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* Agrega una regla para definir el color de fondo y el color del texto del documento */
+  body {
+    background-color: #222;
+    color: #ee6;
+  }
+
+  /* Agrega una regla para centrar el título principal */
+  h1 {
+    text-align: center;
+  }
+
+  /* Muestra todos los párrafos con una fuente sans-serif */
+  p {
+    font-family: sans-serif;
+  }
+
+  /* Agrega una regla para mostrar en color #eee todos los títulos del documento */
+  h1, h2, h3 {
+    color: #eee;
+  }
+
+  /* Agrega un borde inferior color blanco a todos los elementos <strong> */
+  strong {
+    border-bottom: 1px solid white;
+  }
+
+  /* Muestra el fondo gris #444 y el texto en negrita para todos los elementos con la clase the-force */
+  .the-force {
+    background-color: #444;
+    font-weight: bold;
+  }
+
+  /* Muestra el texto con color #66f para los elementos con la clase light-side, y color #f33 para la clase dark-side */
+  .light-side {
+    color: #66f;
+  }
+
+  .dark-side {
+    color: #f33;
+  }
+
+  /* Agrega la regla list-style-type: circle; al listado con ID og-trilogy */
+  #og-trilogy {
+    list-style-type: circle;
+  }
+
+  /* Agrega padding-left al segundo listado de películas */
+  #second-list {
+    padding-left: 20px;
+  }
+
+  /* Agrega margin-top al último elemento del tercer listado de películas */
+  #third-list li:last-child {
+    margin-top: 10px;
+  }
+
+  /* Hace que todos los títulos muestren su texto en mayúscula */
+  h1, h2, h3 {
+    text-transform: uppercase;
+  }
+
+  /* Hace que la primera línea del primer párrafo se muestre en color #efe */
+  p:first-of-type::first-line {
+    color: #efe;
+  }
+
+  /* Cambia el color del título principal cuando se pasa el puntero por encima */
+  h1:hover {
+    color: red;
+  }
+
+  /* Cambia el color de los links visitados a gris */
+  a:visited {
+    color: gray;
+  }
+
+  /* Muestra los links sin atributo href en cursiva */
+  a[href=""] {
+    font-style: italic;
+  }
+
+  /* Muestra de manera alternada el color de fondo de cada elemento de los listados de películas */
+  #og-trilogy li:nth-child(even),
+  #second-list li:nth-child(even),
+  #third-list li:nth-child(even) {
+    background-color: #111;
+  }
+
+  #og-trilogy li:nth-child(odd),
+  #second-list li:nth-child(odd),
+  #third-list li:nth-child(odd) {
+    background-color: #333;
+  }
+</style>
+</head>
+<body>
+  <h1>Main Title</h1>
+  <p>This is a paragraph.</p>
+  <h2 class="the-force">The Force</h2>
+  <h3 class="light-side">Light Side</h3>
+  <h3 class="dark-side">Dark Side</h3>
+  <ul id="og-trilogy">
+    <li>Episode IV</li>
+    <li>Episode V</li>
+    <li>Episode VI</li>
+  </ul>
+  <ul id="second-list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+  <ul id="third-list">
+    <li>Item A</li>
+    <li>Item B</li>
+  </ul>
+</body>
+</html>
